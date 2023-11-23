@@ -43,7 +43,7 @@ public class Ejemplo08 {
                     numerador, 
                     denominador);
             denominador = denominador + 1;
-
+            numerador = numerador + 1;
         } while (denominador <= limite);
 
         System.out.println(cadena);
