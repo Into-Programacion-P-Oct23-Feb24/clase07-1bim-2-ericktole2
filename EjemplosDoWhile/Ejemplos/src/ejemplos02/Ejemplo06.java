@@ -33,6 +33,11 @@ public class Ejemplo06 {
         int contador = 1;
         int limite;
         
+        System.out.println("Ingrese la tabla a generar");
+        tabla = entrada.nextInt();
+        System.out.println("Ingrese el limite de la tabla");
+        limite = entrada.nextInt();
+        
         do {
             operacion = tabla * contador;
             System.out.printf("%d x %d = %d\n", tabla, contador, operacion);
