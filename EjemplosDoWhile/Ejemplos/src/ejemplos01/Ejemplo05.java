@@ -1,5 +1,5 @@
 /*
- 
+ se potencia cual quier cantiadad dada al programa
  */
 package ejemplos01;
 
