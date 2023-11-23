@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+nos pide ingresar una nota en tipo entero, no decimal, con opcion a salir del 
+ciclo con una opcion, de esta manera se calculan las notas ingresadas 
  */
 package ejemplos01;
 
