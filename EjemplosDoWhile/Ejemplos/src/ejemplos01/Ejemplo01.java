@@ -12,11 +12,15 @@ package ejemplos01;
 public class Ejemplo01 {
 
     public static void main(String[] args) {
-        int contador = 100;
+        int contador = 1;
+        int total = 0;
         do {
             System.out.printf("%d\n", contador);
             contador = contador + 1;
-        } while (contador <= 10);
+            total = total + contador; 
+        } while (contador <=10 );
+        
+        System.out.printf("total: %s",total);
     }
 
 }
